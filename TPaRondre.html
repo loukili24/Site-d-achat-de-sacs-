@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP_Weeb</title>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" integrity="your-integrity-hash" crossorigin="anonymous">
+
+</head>
+<body>
+    <style>
+        .custom-navbar   {
+            background-color: #d12073; 
+            color: #ffffff; 
+        }
+        .nav-link {
+            color: #ffffff;
+        }
+        .carousel-inner {
+            margin-top:5px;
+            width: 1300px ;
+            height: 450px;
+            margin-bottom: 20px;
+           
+        }
+       
+        .custom-image {
+              width: 150px;
+              height: 100px;
+         }
+         .round-image {
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+}
+h1 {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #333; 
+    text-align: left; 
+    
+    margin: 50px 50px;
+}
+.col-md-6{
+    margin-top: 15px;
+}
+
+.custom-border {
+            border-bottom: 3px solid black; 
+            text-align: center;
+            padding-bottom: 1px; 
+        }    
+.contact-info{
+            margin-top: 100px;
+        } 
+.card-img-top {
+    width: 300px;
+    height: 170px;
+}
+h1 {
+    color: rgb(180, 90, 94);
+    font-size: 24px;
+    text-align: justify;
+    text-decoration: underline;
+    font-style: italic;
+  }
+  h3{
+    color: rgb(167, 124, 196);
+  }
+  .pp{
+    color: rgb(215, 99, 140);
+  }
+   
+    </style>
+    
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img src="logo.png" alt="LOGO" width="45" height="45">
+                </a>
+          <a class="navbar-brand" href="#">MyBag</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" rel="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><img src="https://cdn-icons-png.flaticon.com/512/109/109859.png" alt="Search" width="25" height="25">
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="lien_de_votre_image1"><img src="Design sans titre (1).png" class="d-block w-100" alt="Image 1"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="lien_de_votre_image2"><img src="Design sans titre (2).png" class="d-block w-100" alt="Image 2"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="lien_de_votre_image3"><img src="Design sans titre (5).png" class="d-block w-100" alt="Image 3"></a>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top custom-image" src="téléchargement (2).jpeg" class="card-img-top" alt="bag1">
+              <div class="card-body">
+                <h5 class="card-title">Article 1</h5>
+                <p class="card-text">D'un raffinement indéniable, ce sac allie élégance intemporelle et artisanat d'exception pour une sophistication sans pareille.</p>
+                <a href="#" class="btn btn-primary">Acheter</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top custom-image" src="téléchargement (3).jpeg" class="card-img-top" alt="bag2">
+              <div class="card-body">
+                <h5 class="card-title">Article  2</h5>
+                <p class="card-text">La qualité inégalée de ce sac se révèle dans chaque couture, chaque détail, chaque matériau soigneusement sélectionné.</p>
+                <a href="#" class="btn btn-primary">Acheter</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top custom-image" src="images (4).jpeg" class="card-img-top" alt="bag3">
+              <div class="card-body">
+                <h5 class="card-title">Article  3</h5>
+                <p class="card-text">D'une qualité exceptionnelle, notre sac incarne l'alliance parfaite entre élégance intemporelle et durabilité sans compromis.</p>
+                <a href="#" class="btn btn-primary">Acheter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1>
+        Notre Equipe :
+      </h1>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="text-center">
+                    <div class="rounded-circle" style="width: 230px; height: 230px; background-color: #f0f0f0; margin: 0 auto;">
+                        <img src="téléchargement (5).jpeg" alt="Image 1" class="img-fluid" style="border-radius: 50%;">
+                    </div>
+                    <h3>Ana Mil</h3>
+                    <p> est la fondatrice de notre marque de sacs. Elle est une visionnaire passionnée, une icône de style et une innovatrice. Sa passion pour la maroquinerie et son sens de la mode l'ont propulsée à l'avant-garde de l'industrie. Ana Mil incarne l'élégance, la qualité et l'innovation. Son engagement envers l'excellence guide votre marque vers de nouveaux sommets, redéfinissant le luxe moderne.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <div class="rounded-circle" style="width: 230px; height: 230px; background-color: #f0f0f0; margin: 0 auto;">
+                        <img src="téléchargement (4).jpeg" alt="Image 2" class="img-fluid" style="border-radius: 50%;">
+                    </div>
+                    <h3>Junifir Maluxs</h3>
+                    <p> est la responsable des ressources humaines de notre marque de sacs. Son engagement envers le développement professionnel et personnel des employés a contribué à créer une culture d'entreprise dynamique et collaborative. Grâce à son leadership empreint d'empathie et à son engagement envers l'égalité des chances, elle a favorisé un environnement propice à la croissance professionnelle et personnelle au sein de l'équipe.</p>
+                </div>
+            </div>
+            <div class="col-md-4"  >
+                <div class="text-center">
+                    <div class="rounded-circle" style="width: 230px; height: 230px; background-color: #f0f0f0; margin: 0 auto;">
+                        <img src="Design sans titre (7).png" alt="Image 3" class="img-fluid" style="border-radius: 50%;">
+                    </div>
+                    <h3>Nora Lotfi</h3>
+                    <p> est la designer derrière les collections emblématiques de sacs de notre marque. Son approche artistique innovante et son attention méticuleuse aux détails donnent vie à des sacs qui transcendent les tendances éphémères. Grâce à son engagement envers l'élégance intemporelle et l'innovation, elle crée des pièces uniques qui redéfinissent les normes de la sophistication moderne.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <hr> 
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-6">
+                <div class="contact-info">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="col-10">
+                            <p class="pp">Téléphone: +33 123 456 789</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="col-10">
+                            <p class="pp">Email: exemple@email.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fas fa-map-marker"></i>
+                        </div>
+                        <div class="col-10">
+                            <p class="pp">Adresse: 20 Rue du lalamaryam, fes, maroc</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        
+
+            <div class="col-md-6">
+                <div class="map-frame">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3848.731372839231!2d-122.08394938562534!3d37.42199997980243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580811db15591%3A0xb76b50f298c5ac1!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1589292958105!5m2!1sen!2sus" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+      
+      
+</body>
+</html>
